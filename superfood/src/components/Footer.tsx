@@ -1,18 +1,19 @@
-import { Home,Instagram, Facebook, Linkedin  } from 'lucide-react'
-import Link from 'next/link'
-import React from 'react'
+import { Home, Instagram, Facebook, Linkedin } from 'lucide-react';
+import Link from 'next/link';
+import React from 'react';
 
 function Footer() {
   return (
     <div>
-
-<footer className="bg-gray-800 text-gray-300 mt-20 px-8 py-12">
+      <footer className="bg-gray-800 text-gray-300 mt-20 px-8 py-12">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <Link href="/">
-            <h2 className="text-white text-2xl font-bold mb-4">SuperFood<span className="text-[20px]">🍃</span></h2>
+              <h2 className="text-white text-2xl font-bold mb-4">
+                SuperFood<span className="text-[20px]">🍃</span>
+              </h2>
             </Link>
-           
+
             <p className="mb-6">
               At vero eos et accusam et justo duo dolores et ea rebum. Stet
               clita kasd guber gren. Aenean sollici tudin lorem quis biben dum
@@ -52,34 +53,44 @@ function Footer() {
 
           <div>
             <h3 className="text-white text-xl font-bold mb-4">Twitter feed</h3>
-            <p className="mb-6">Couldn't connect with Twitter</p>
+            <p className="mb-6">Couldn&apos;t connect with Twitter</p>
             <div className="flex gap-4">
-  <a className="flex items-center gap-2 hover:text-white" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-    <Instagram size={20} />
-    Instagram
-  </a>
-  {/* <a className="flex items-center gap-2 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">
-    <Twitter size={20} />
-    Twitter
-  </a> */}
-  <a className="flex items-center gap-2 hover:text-white" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-    <Facebook size={20} />
-    Facebook
-  </a>
-  <a className="flex items-center gap-2 hover:text-white" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-    <Linkedin size={20} />
-    LinkedIn
-  </a>
-</div>
+              <a
+                className="flex items-center gap-2 hover:text-white"
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Instagram size={20} />
+                Instagram
+              </a>
+              <a
+                className="flex items-center gap-2 hover:text-white"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Facebook size={20} />
+                Facebook
+              </a>
+              <a
+                className="flex items-center gap-2 hover:text-white"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkedin size={20} />
+                LinkedIn
+              </a>
+            </div>
           </div>
         </div>
         <div className="text-center mt-12 pt-8 border-t border-gray-700">
           <p>©2017 Qode Interactive, All Rights Reserved</p>
         </div>
       </footer>
-
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

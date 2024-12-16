@@ -1,5 +1,5 @@
 import React from 'react'
-import { Facebook, Instagram, Twitter, } from "lucide-react";
+import { Facebook, Instagram, Twitter } from "lucide-react";
 import Image from 'next/image';
 function OurTeam() {
   return (
@@ -19,8 +19,8 @@ function OurTeam() {
                         <Image
                             src="https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/team4-1.jpg"
                             alt="Olivia Boyd"
-                            width={256} // Corresponding to w-64 (64 * 4 = 256px)
-                            height={256} // Corresponding to h-64 (64 * 4 = 256px)
+                            width={256}
+                            height={256}
                             className="object-cover rounded-lg mb-4"
                         />
                         <h3 className="font-bold text-lg mb-1">Olivia Boyd</h3>
@@ -42,8 +42,8 @@ function OurTeam() {
                         <Image
                             src="https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/team2-1.jpg"
                             alt="Olivia Boyd"
-                            width={256} // Corresponding to w-64 (64 * 4 = 256px)
-                            height={256} // Corresponding to h-64 (64 * 4 = 256px)
+                            width={256}
+                            height={256}
                             className="object-cover rounded-lg mb-4"
                         />
                         <h3 className="font-bold text-lg mb-1">Jackie Brown</h3>
@@ -51,7 +51,7 @@ function OurTeam() {
                             Photographer
                         </p>
                         <p className="text-gray-600 text-center mb-4">
-                            Capturing life's beautiful moments through the lens of creativity.
+                            Capturing life&apos;s beautiful moments through the lens of creativity.
                         </p>
                         <div className="flex gap-4">
                             <Facebook className="w-5 h-5 text-gray-600 hover:text-gray-900 cursor-pointer transition-colors" />
@@ -64,8 +64,8 @@ function OurTeam() {
                         <Image
                             src="https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/team3-1.jpg"
                             alt="Olivia Boyd"
-                            width={256} // Corresponding to w-64 (64 * 4 = 256px)
-                            height={256} // Corresponding to h-64 (64 * 4 = 256px)
+                            width={256}
+                            height={256}
                             className="object-cover rounded-lg mb-4"
                         />
                         <h3 className="font-bold text-lg mb-1">Greg Wilson</h3>
@@ -86,8 +86,8 @@ function OurTeam() {
                         <Image
                             src="https://superfood.qodeinteractive.com/wp-content/uploads/2016/09/team7-1.jpg"
                             alt="Olivia Boyd"
-                            width={256} // Corresponding to w-64 (64 * 4 = 256px)
-                            height={256} // Corresponding to h-64 (64 * 4 = 256px)
+                            width={256}
+                            height={256}
                             className="object-cover rounded-lg mb-4"
                         />
                         <h3 className="font-bold text-lg mb-1">Ruben Carpenter</h3>
