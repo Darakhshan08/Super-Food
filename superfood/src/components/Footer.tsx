@@ -21,7 +21,7 @@ function Footer() {
             </p>
             <div className="flex items-center gap-2 mb-3">
               <Home size={20} />
-              <span>+387643932728</span>
+              <span>+1234567890</span>
             </div>
             <div className="flex items-center gap-2">
               <span>Eighth Avenue 487, New York</span>
@@ -86,7 +86,7 @@ function Footer() {
           </div>
         </div>
         <div className="text-center mt-12 pt-8 border-t border-gray-700">
-          <p>©2017 Qode Interactive, All Rights Reserved</p>
+          <p>©2017 darakhshanshah8@gmail.com, All Rights Reserved</p>
         </div>
       </footer>
     </div>

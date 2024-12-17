@@ -209,7 +209,7 @@ import Footer from '@/components/Footer';
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                     diam nonumy eirmod tempor invidunt ut labore et dolore magna
                     aliquyam erat. At vero eos et accusam et justo duo dolores et
-                    ea rebum. Stet clita kasd gubergren.
+                    ea rebum. Stet clita kasd  gubergren.
                   </p>
                 )}
               </div>
