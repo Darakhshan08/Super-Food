@@ -86,7 +86,7 @@ function Footer() {
           </div>
         </div>
         <div className="text-center mt-12 pt-8 border-t border-gray-700">
-          <p>©2017 darakhshanshah8@gmail.com, All Rights Reserved</p>
+          <p>©2024 darakhshanshah8@gmail.com, All Rights Reserved</p>
         </div>
       </footer>
     </div>
